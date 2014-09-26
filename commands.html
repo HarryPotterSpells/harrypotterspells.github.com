@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Home - HarryPotterSpells</title>
+    <title>Commands - HarryPotterSpells</title>
     <link href="favicon.ico" rel="icon">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/spacelab/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-responsive.min.css" >
     <link rel="stylesheet" href="/css/general-css.css" >
-    <link rel="canonical" href="http://hpspells.tk/">
+    <link rel="canonical" href="http://hpspells.tk/commands.html">
 </head>
   <body>
   <div class="navbar navbar-fixed-top">
@@ -26,10 +26,10 @@
       <div class="nav-collapse collapse">
         <ul class="nav">
           <!-- page.title for page title-->
-          <li class="active"><a href="index.html">Home</a></li>
+          <li ><a href="index.html">Home</a></li>
           <li ><a href="downloads.html">Downloads</a></li>
           <li ><a href="spells.html">Spells</a></li>
-          <li ><a href="commands.html">Commands</a></li>
+          <li class="active"><a href="commands.html">Commands</a></li>
           <li ><a href="config.html">Configuration</a></li>
           <li ><a href="contact.html">Contact</a></li>
           <li class="divider-vertical"></li>
@@ -81,21 +81,79 @@ Tutorials/FAQ - What we would put here?
 
   <div class="container">
     <!-- Content -->
-    <!-- Content -->
-<div class="center">
-  <img src="http://i.imgur.com/eyXiuAv.png" alt="HarryPotterSpells banner">
+    <h2>Commands and Permissions</h2>
+<table class="table">
+  <tr class="thead">
+    <td>Command</td>
+    <td>Function</td>
+    <td>Permission</td>
+  </tr>
+  <tr>
+    <td>/wand</td>
+    <td>Gives the sender a wand</td>
+    <td>HarryPotterSpells.wand</td>
+  </tr>
+  <tr>
+    <td>/teach &lt;spell&gt; [player]</td>
+    <td>Teaches the specified spell</td>
+    <td>HarryPotterSpells.teach</td>
+  </tr>
+  <tr>
+    <td>/unteach &lt;spell&gt; [player]</td>
+    <td>Unteaches the specified spell (the target player will "forget")</td>
+    <td>HarryPotterSpells.unteach</td>
+  </tr>
+  <tr>
+    <td>/spelllist [player]</td>
+    <td>List all available spells, or all known spells of the specified player</td>
+    <td>HarryPotterSpells.spelllist</td>
+  </tr>
+  <tr>
+    <td>/spellinfo &lt;spell&gt;</td>
+    <td>Shows the description of the specified spell</td>
+    <td>HarryPotterSpells.spellinfo</td>
+  </tr>
+</table>
+<div class="row">
+  <div class="span8">
+    <p>
+      Notes:
+    </p>
+    <ul>
+      <li>"All" or "*" can be used for spell to denote all spells</li>
+      <li>"Me" (or nothing) can be used for [player] to specify yourself</li>
+    </ul>
+  </div>
+  <div class="span4">
+    <div class="well semibold">
+      <p>
+        <strong>Remember that all permission nodes are cAsE-sEnSiTiVe!</strong>
+      </p>
+    </div>
+  </div>
 </div>
 <br>
-<p>
-  HarryPotterSpells is a Bukkit plugin designed to add magic and fun to any server, HarryPotter-related or not. Whether you run a full-fledged Harry Potter server (or plan to), want to add magic to a role-playing server, or are just an admin looking for a bit of fun, this plugin is for you!
-</p>
-<p>
-  HarryPotterSpells prides itself on being configurable and extensible. Many options are configurable, spells can be added and removed, and extensions can be created by anyone. HarryPotterSpells is the ultimate magic plugin.
-</p>
-<p>
-  The plugin is currently in the alpha phase, meaning that it is still in its infancy. The development team is hard at work, striving to add features, fix bugs, and optimize everything. However, we will release regular alpha builds. See the <a href="downloads.html">Downloads page</a> for more information.
-</p>
-<!-- End Content -->
+<h3>Other Permissions</h3>
+<br>
+<table class="table">
+  <tr class="thead">
+    <td>Permissions</td>
+    <td>Function</td>
+  </tr>
+  <tr>
+    <td>HarryPotterSpells.use</td>
+    <td>Allow the user to cast all spells they know</td>
+  </tr>
+  <tr>
+    <td>HarryPotterSpells.nocooldown.&lt;spell&gt;</td>
+    <td>Bypass the cooldown of &lt;spell&gt;</td>
+  </tr>
+  <tr>
+    <td>HarryPotterSpells.nocooldown or HarryPotterSpells.nocooldown.*</td>
+    <td>Bypass ALL spell cooldowns</td>
+  </tr>
+</table>
+
     <!-- End Content -->
   </div>
   <hr />

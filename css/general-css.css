@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600|Droid+Sans|Metrophobic);
+
+body {
+  font-family:'Open Sans', Helvetica, Geneva, Arial, sans-serif;
+  font-size:16px;
+  padding-top:75px;
+  padding-bottom:40px;
+}
+
+p,ul {
+  font-size:16px;
+  line-height:23px;
+  margin-bottom:15px;
+}
+
+li {
+  line-height:23px;
+}
+
+ul > ul > li {
+  font-size:14px;
+}
+
+h3 {
+  font-weight:400;
+  margin-bottom:0;
+}
+
+blockquote {
+  line-height:25px;
+}
+
+h1 {
+  padding-bottom:10px;
+  font-family:Metrophobic;
+}
+
+.nav {
+  font-family:'Droid Sans';
+}
+
+.thead {
+  font-weight:600;
+  background-color:#eee;
+}
+
+.semibold strong {
+  font-weight:600;
+}
+
+.center {
+  text-align:center;
+}
