@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf_8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -91,6 +91,105 @@ Tutorials/FAQ - What we would put here?
   <tr>
     <td>/wand</td>
     <td>Gives the sender a wand</td>
+    <td>harrypotterspells.wand</td>
+  </tr>
+  <tr>
+    <td>/teach &lt;spell&gt; [player]</td>
+    <td>Teaches the specified spell</td>
+    <td>harrypotterspells.teach</td>
+  </tr>
+  <tr>
+    <td>/unteach &lt;spell&gt; [player]</td>
+    <td>Unteaches the specified spell (the target player will "forget")</td>
+    <td>harrypotterspells.unteach</td>
+  </tr>
+  <tr>
+    <td>/spelllist [player]</td>
+    <td>List all available spells, or all known spells of the specified player</td>
+    <td>harrypotterspells.spelllist</td>
+  </tr>
+  <tr>
+    <td>/spellinfo &lt;spell&gt;</td>
+    <td>Shows the description of the specified spell</td>
+    <td>harrypotterspells.spellinfo</td>
+  </tr>
+</table>
+<div class="row">
+  <div class="span8">
+    <p>
+      Notes:
+    </p>
+    <ul>
+      <li>"All" or "*" can be used for spell to denote all spells</li>
+      <li>"Me" (or nothing) can be used for [player] to specify yourself</li>
+    </ul>
+  </div>
+  <div class="span4">
+    <div class="well semibold">
+      <p>
+        <strong>Remember that all permission nodes are cAsE-sEnSiTiVe!</strong>
+      </p>
+    </div>
+  </div>
+</div>
+<h3>Other Permissions</h3>
+<br>
+<table class="table">
+  <tr class="thead">
+    <td>Permissions</td>
+    <td>Function</td>
+  </tr>
+  <tr>
+    <td>harrypotterspells.cast</td>
+    <td>Allow the user to cast all spells they know</td>
+  </tr>
+  <tr>
+    <td>harrypotterspells.spell.&lt;spell&gt;</td>
+    <td>Allows the casting and spellswitching of the &lt;spell&gt; 
+      <br><strong>Note: (By default everyone has access to all spells)</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>harrypotterspells.nocooldown.&lt;spell&gt;</td>
+    <td>Bypass the cooldown of &lt;spell&gt;</td>
+  </tr>
+  <tr>
+    <td>harrypotterspells.nocooldown or harrypotterspells.nocooldown.*</td>
+    <td>Bypass ALL spell cooldowns</td>
+  </tr>
+</table>
+<h3>HarryPotterSpells pre v1.1 Permissions</h3>
+<br>
+<p>
+The permissions bellow are for all versions of HarryPotterSpells before v1.1.1 BETA. You are advised to upgrade and make sure to change your permissions to the above tables.
+</p>
+<table class="table">
+  <tr class="thead">
+    <td>Permissions</td>
+    <td>Function</td>
+  </tr>
+  <tr>
+    <td>HarryPotterSpells.use</td>
+    <td>Allow the user to cast all spells they know</td>
+  </tr>
+  <tr>
+    <td>HarryPotterSpells.nocooldown.&lt;spell&gt;</td>
+    <td>Bypass the cooldown of &lt;spell&gt;</td>
+  </tr>
+  <tr>
+    <td>HarryPotterSpells.nocooldown or HarryPotterSpells.nocooldown.*</td>
+    <td>Bypass ALL spell cooldowns</td>
+  </tr>
+</table>
+<table class="table">
+  <tr class="thead">
+    <td>Command</td>
+    <td>Function</td>
+    <td>Permission</td>
+  </tr>
+  <tr>
+    <td>/wand</td>
+    <td>Gives the sender a wand</td>
     <td>HarryPotterSpells.wand</td>
   </tr>
   <tr>
@@ -114,25 +213,6 @@ Tutorials/FAQ - What we would put here?
     <td>HarryPotterSpells.spellinfo</td>
   </tr>
 </table>
-<div class="row">
-  <div class="span8">
-    <p>
-      Notes:
-    </p>
-    <ul>
-      <li>"All" or "*" can be used for spell to denote all spells</li>
-      <li>"Me" (or nothing) can be used for [player] to specify yourself</li>
-    </ul>
-  </div>
-  <div class="span4">
-    <div class="well semibold">
-      <p>
-        <strong>Remember that all permission nodes are cAsE-sEnSiTiVe!</strong>
-      </p>
-    </div>
-  </div>
-</div>
-<br>
 <h3>Other Permissions</h3>
 <br>
 <table class="table">
@@ -145,11 +225,17 @@ Tutorials/FAQ - What we would put here?
     <td>Allow the user to cast all spells they know</td>
   </tr>
   <tr>
+    <td>HarryPotterSpells.spell.&lt;spell&gt;</td>
+    <td>Allows the casting and spellswitching of the &lt;spell&gt; 
+      <br><strong>Note: (By default everyone has access to all spells)</strong>
+    </td>
+  </tr>
+  <tr>
     <td>HarryPotterSpells.nocooldown.&lt;spell&gt;</td>
     <td>Bypass the cooldown of &lt;spell&gt;</td>
   </tr>
   <tr>
-    <td>HarryPotterSpells.nocooldown or HarryPotterSpells.nocooldown.*</td>
+    <td>HarryPotterSpells.nocooldown or harrypotterspells.nocooldown.*</td>
     <td>Bypass ALL spell cooldowns</td>
   </tr>
 </table>
