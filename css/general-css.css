@@ -5,6 +5,7 @@ body {
   font-size:16px;
   padding-top:75px;
   padding-bottom:40px;
+  /* color: #666; */
 }
 
 p,ul {
@@ -13,9 +14,9 @@ p,ul {
   margin-bottom:15px;
 }
 
-li {
+/* li {
   line-height:23px;
-}
+} */
 
 ul > ul > li {
   font-size:14px;
@@ -44,10 +45,28 @@ h1 {
   background-color:#eee;
 }
 
-.semibold strong {
-  font-weight:600;
-}
-
 .center {
   text-align:center;
+}
+
+.navbar .divider-vertical {
+  height: 40px;
+  margin: 0 9px;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #e1e1e1;
+}
+
+/* New rules introduced for bootstrap 4 */
+
+.nav-item.active > .nav-link {
+  color: #09d !important;
+} 
+
+.nav-item > .nav-link:hover {
+  color: #09d !important;
+} 
+
+.end-divider {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
 }

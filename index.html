@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Home - HarryPotterSpells</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/spacelab/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css" >
-    <link rel="stylesheet" href="/css/general-css.css" >
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/spacelab/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./css/bootstrap-responsive.min.css" > -->
+    <link rel="stylesheet" href="./css/general-css.css" >
     <link rel="canonical" href="http://harrypotterspells.tk/">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -22,125 +24,182 @@
 
       gtag('config', 'UA-121087814-1');
     </script>
-</head>
+  </head>
   <body>
-    <div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <button href="#" type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <!--navbar-responsive-collapse-->
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="brand" href="/">HarryPotterSpells</a>
-
-      <div class="nav-collapse collapse">
-        <ul class="nav">
-          <!-- page.title for page title-->
-          <li class="active"><a href="index.html">Home</a></li>
-          <li ><a href="downloads.html">Downloads</a></li>
-          <li ><a href="spells.html">Spells</a></li>
-          <li ><a href="commands.html">Commands</a></li>
-          <li ><a href="config.html">Configuration</a></li>
-          <li ><a href="contact.html">Contact</a></li>
-          <li class="divider-vertical"></li>
-          <li><a href="https://github.com/HarryPotterSpells/HarryPotterSpells">GitHub Repo</a></li>
-          <li><a href="https://trello.com/b/NjuFblvo">Trello Board</a></li>
-          <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KTC29799LHT52">Donate</a></li>
-          <!--
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Development <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="http://google.com">GitHub</a>
+    <header>
+      <nav class="navbar navbar-expand-xl fixed-top navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">HarryPotterSpells</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="divider"></li>
-              <li>
-                <a href="http://google.com">Changelog</a>
+              <li class="nav-item">
+                <a class="nav-link" href="downloads.html">Downloads</a>
               </li>
-              <li>
-                <a href="http://google.com">Test Server</a>
+              <li class="nav-item">
+                <a class="nav-link" href="spells.html">Spells</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="commands.html">Commands</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="config.html">Configuration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <div class="divider-vertical d-none d-xl-block"></div>
+              <div class="dropdown-divider"></div>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/HarryPotterSpells/HarryPotterSpells">GitHub Repo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://trello.com/b/NjuFblvo">Trello Board</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KTC29799LHT52">Donate</a>
               </li>
             </ul>
-          </li>
-          -->
-        </ul>        
-<!--
-    Home
-    Downloads
-    Spells
-    Commands
-    Configuration
-    Contact
-    ______
-    GitHub
-    Trello
-    Donate
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button href="#" type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> 
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">HarryPotterSpells</a>
+
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li ><a href="downloads.html">Downloads</a></li>
+              <li ><a href="spells.html">Spells</a></li>
+              <li ><a href="commands.html">Commands</a></li>
+              <li ><a href="config.html">Configuration</a></li>
+              <li ><a href="contact.html">Contact</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="https://github.com/HarryPotterSpells/HarryPotterSpells">GitHub Repo</a></li>
+              <li><a href="https://trello.com/b/NjuFblvo">Trello Board</a></li>
+              <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KTC29799LHT52">Donate</a></li>
+              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Development <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="http://google.com">GitHub</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a href="http://google.com">Changelog</a>
+                  </li>
+                  <li>
+                    <a href="http://google.com">Test Server</a>
+                  </li>
+                </ul>
+              </li>
+              
+            </ul>        
+
+        Home
+        Downloads
+        Spells
+        Commands
+        Configuration
+        Contact
+        ______
+        GitHub
+        Trello
+        Donate
 
 
-Me, bashing on my own ideas:
-About - Moved all content to HOME
-News - Just check the GitHub and Trello, lol
-Installation - Don't really need this
-Tutorials/FAQ - What we would put here?
+    Me, bashing on my own ideas:
+    About - Moved all content to HOME
+    News - Just check the GitHub and Trello, lol
+    Installation - Don't really need this
+    Tutorials/FAQ - What we would put here?
 
--->
+    
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+    -->
 
-    <div class="container">
-      <!-- Content -->
-      <!-- Content -->
-<div class="center">
-  <img src="http://i.imgur.com/eyXiuAv.png" alt="HarryPotterSpells banner">
-</div>
-<br>
-<p>
-  HarryPotterSpells is a Bukkit plugin designed to add magic and fun to any server, HarryPotter-related or not. Whether you run a full-fledged Harry Potter server (or plan to), want to add magic to a role-playing server, or are just an admin looking for a bit of fun, this plugin is for you!
-</p>
-<p>
-  HarryPotterSpells prides itself on being configurable and extensible. Many options are configurable, spells can be added and removed, and extensions can be created by anyone. HarryPotterSpells is the ultimate magic plugin.
-</p>
-<p>
-  The plugin is currently in the alpha phase, meaning that it is still in its infancy. The development team is hard at work, striving to add features, fix bugs, and optimize everything. However, we will release regular alpha builds. See the <a href="downloads.html">Downloads page</a> for more information.
-</p>
-<!-- End Content -->
-      <!-- End Content -->
-    </div>
-    <hr />
+    <main role="main">
+      <div class="container">
+        <!-- Content -->
+        <!-- Content -->
+        <div class="center">
+          <img src="http://i.imgur.com/eyXiuAv.png" alt="HarryPotterSpells banner">
+        </div>
+        <br>
+        <p>
+          HarryPotterSpells is a Bukkit plugin designed to add magic and fun to any server, HarryPotter-related or not. Whether you run a full-fledged Harry Potter server (or plan to), want to add magic to a role-playing server, or are just an admin looking for a bit of fun, this plugin is for you!
+        </p>
+        <p>
+          HarryPotterSpells prides itself on being configurable and extensible. Many options are configurable, spells can be added and removed, and extensions can be created by anyone. HarryPotterSpells is the ultimate magic plugin.
+        </p>
+        <p>
+          The plugin is currently in the alpha phase, meaning that it is still in its infancy. The development team is hard at work, striving to add features, fix bugs, and optimize everything. However, we will release regular alpha builds. See the <a href="downloads.html">Downloads page</a> for more information.
+        </p>
+        <!-- End Content -->
+        <!-- End Content -->
+      </div>
+      
+    </main>
 
-<div class="footer" style="width: 1170px; margin: auto">
-    <p class="pull-left">
-    Hosted by Jacklin213 with Github pages
-    </p>
-    <p class="pull-right">
-        <a href="downloads.html">Download</a> | 
-        <a href="contact.html"> Contact</a> | 
-        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KTC29799LHT52"> Donate </a>
-    </p>
-</div>
+    <hr class="end-divider"/>
 
-<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-	var sc_project=9253478; 
-	var sc_invisible=1; 
-	var sc_security="47883adc"; 
-	var scJsHost = (("https:" == document.location.protocol) ?
-	"https://secure." : "http://www.");
-	document.write("<sc"+"ript type='text/javascript' src='" +
-	scJsHost+
-	"statcounter.com/counter/counter.js'></"+"script>");
-</script>
+    <footer class="text-muted bg-light">
+      <div class="container">
+        <p class="float-left">
+          Hosted by Jacklin213 with Github pages
+        </p>
+        <p class="float-right">
+          <a href="downloads.html">Download</a> | 
+          <a href="contact.html"> Contact</a> | 
+          <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KTC29799LHT52"> Donate </a>
+        </p>
+      </div>  
+    </footer>
 
-<noscript>
-	<div class="statcounter"><a title="web analytics"
-	href="http://statcounter.com/" target="_blank"><img
-	class="statcounter"
-	src="http://c.statcounter.com/9253478/0/47883adc/1/"
-	alt="web analytics"></a></div>
-</noscript>
-<!-- End of StatCounter Code for Default Guide -->
+    <!-- Bootstrap & JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+      var sc_project=9253478; 
+      var sc_invisible=1; 
+      var sc_security="47883adc"; 
+      var scJsHost = (("https:" == document.location.protocol) ?
+      "https://secure." : "http://www.");
+      document.write("<sc"+"ript type='text/javascript' src='" +
+      scJsHost+
+      "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+
+    <noscript>
+      <div class="statcounter"><a title="web analytics"
+      href="http://statcounter.com/" target="_blank"><img
+      class="statcounter"
+      src="http://c.statcounter.com/9253478/0/47883adc/1/"
+      alt="web analytics"></a></div>
+    </noscript>
+    <!-- End of StatCounter Code for Default Guide -->
   </body>
 </html>
