@@ -58,7 +58,7 @@ h1 {
 
 /* New rules introduced for bootstrap 4 */
 
-.nav-item.active > .nav-link {
+.nav-link.active {
   color: #09d !important;
 } 
 
