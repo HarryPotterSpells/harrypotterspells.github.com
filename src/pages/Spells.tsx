@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import { AdRow } from "../components/Ads";
+import useDocumentTitle from "../utils/useDocumentTitle";
 
 export const Spells = () => {
+  useDocumentTitle("Spells");
+
   return (
     <>
       <h2 id="spells">Spells</h2>

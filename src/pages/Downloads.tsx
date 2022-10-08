@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { AdRow } from "../components/Ads";
 import { EXTERNAL_LINKS } from "../Constants";
+import useDocumentTitle from "../utils/useDocumentTitle";
 
 export const Downloads = () => {
+  useDocumentTitle("Downloads");
+
   return (
     <>
       <h2>Downloads</h2>

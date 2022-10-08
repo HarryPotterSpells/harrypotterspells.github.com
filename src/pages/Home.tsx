@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import useDocumentTitle from "../utils/useDocumentTitle";
 
 export const Home = () => {
+  useDocumentTitle("Home");
+
   return (
     <>
       <div className="center">

@@ -1,6 +1,9 @@
 import { AdRow } from "../components/Ads";
+import useDocumentTitle from "../utils/useDocumentTitle";
 
 export const Commands = () => {
+  useDocumentTitle("Commands");
+
   return (
     <>
       <h2 id="commands-permissions">Commands and Permissions</h2>

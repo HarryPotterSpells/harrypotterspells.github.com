@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import { AdRow } from "../components/Ads";
+import useDocumentTitle from "../utils/useDocumentTitle";
 
 export const Config = () => {
+  useDocumentTitle("Config");
+
   return (
     <>
       <h2>Configuration</h2>

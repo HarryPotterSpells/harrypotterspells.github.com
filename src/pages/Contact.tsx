@@ -1,6 +1,7 @@
 import { AdRow } from "../components/Ads";
 import { EXTERNAL_LINKS } from "../Constants";
 import { ExternalLink } from "../components/ExternalLink";
+import useDocumentTitle from "../utils/useDocumentTitle";
 
 const SpigotLink = () => <ExternalLink url={EXTERNAL_LINKS.SPIGOT}>Spigot resource page</ExternalLink>;
 const BukkitLink = () => <ExternalLink url={EXTERNAL_LINKS.BUKKIT}>BukkitDev page</ExternalLink>;
@@ -20,6 +21,8 @@ const GitWebIssueLink = () => (
 );
 
 export const Contact = () => {
+  useDocumentTitle("Contact");
+
   return (
     <>
       <h2>Contact</h2>
