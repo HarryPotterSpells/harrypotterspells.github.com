@@ -1,12 +1,21 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 export const AdUnit = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    try {
+      ((window as any).adsbygoogle || []).push({});
+    } catch (error) {
+      // Primarily used to catch adsbygoogle.push() error
+      // Mainly for local dev due to Strict mode triggering effect twice
+      console.log((error as Error).message);
+    }
+  }, [pathname]);
+
   return (
-    <>
-      <script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5558366335634162"
-        crossOrigin="anonymous"
-      ></script>
-      {/* HarryPotterSpells */}
+    <div className="ad-unit">
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
@@ -15,8 +24,7 @@ export const AdUnit = () => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </>
+    </div>
   );
 };
 
