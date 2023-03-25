@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Accio",
+    "description": "Pulls nearby item drops towards the caster",
+    "target": "Nothing",
+    "configurability": "Radius (how close items need to be)",
+    "effect": "None",
+    "cooldown": "5s"
+  },
+  {
+    "name": "Aguamenti",
+    "description": "Places a block of water on the target block",
+    "target": "Block",
+    "configurability": "None",
+    "effect": "Water Drip",
+    "cooldown": "90s"
+  },
+  {
+    "name": "Alarte Ascendare",
+    "description": "Propels the target upwards",
+    "target": "Living Entity",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "45s"
+  },
+  {
+    "name": "Alohomora",
+    "description": "Opens up iron doors and doors locked by Colloportus",
+    "target": "Block",
+    "configurability": "None",
+    "effect": "Spell Instant",
+    "cooldown": "50s"
+  },
+  {
+    "name": "Aparecium",
+    "description": "Makes nearby players visible",
+    "target": "Player",
+    "configurability": "Radius",
+    "effect": "None",
+    "cooldown": "300s"
+  },
+  {
+    "name": "Arania Exumai",
+    "description": "Damages and knocks back spiders",
+    "target": "Spider",
+    "configurability": "Knockback",
+    "effect": "None",
+    "cooldown": "90s"
+  },
+  {
+    "name": "Avada Kedavra",
+    "description": "Instantly kills the target",
+    "target": "Living Entity",
+    "configurability": "None",
+    "effect": "None (coming soon: green particles)",
+    "cooldown": "300s"
+  },
+  {
+    "name": "Avis",
+    "description": "Shoots a flock of birds (chickens) from your wand",
+    "target": "Nothing",
+    "configurability": "Number of chickens",
+    "effect": "None",
+    "cooldown": "300s"
+  },
+  {
+    "name": "Bauleo",
+    "description": "Absorbs all nearby items into a nearby chest",
+    "target": "None",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "10s"
+  },
+  {
+    "name": "Bubble-head Charm",
+    "description": "Refills the target's air bar to full",
+    "target": "Player",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "45s"
+  },
+  {
+    "name": "Colloportus",
+    "description": "Locks single/double doors",
+    "target": "Block",
+    "configurability": "Lock time",
+    "effect": "Instant",
+    "cooldown": "60s"
+  },
+  {
+    "name": "Confringo",
+    "description": "Launches an explosive fireball from your wand",
+    "target": "Nothing",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "45s"
+  },
+  {
+    "name": "Confundo",
+    "description": "Applies the confusion effect to the target",
+    "target": "Player",
+    "configurability": "Duration",
+    "effect": "None",
+    "cooldown": "180s"
+  },
+  {
+    "name": "Crucio",
+    "description": "Tortures the target",
+    "target": "Player",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "300s"
+  },
+  {
+    "name": "Deprimo",
+    "description": "Applies the slowness effect to the target and forces the target to sneak",
+    "target": "Living Entity (only players are forced to sneak)",
+    "configurability": "Duration",
+    "effect": "None",
+    "cooldown": "180s"
+  },
+  {
+    "name": "Duro",
+    "description": "Turns a block into stone",
+    "target": "Block",
+    "configurability": "None",
+    "effect": "Gray redstone dust",
+    "cooldown": "90s"
+  },
+  {
+    "name": "Episkey",
+    "description": "Applies the regeneration effect to the target",
+    "target": "Living Entity",
+    "configurability": "Duration",
+    "effect": "None (coming soon: hearts?)",
+    "cooldown": "60s"
+  },
+  {
+    "name": "Evanesco",
+    "description": "Makes the caster invisible",
+    "target": "Caster",
+    "configurability": "Duration",
+    "effect": "Explosion",
+    "cooldown": "45s"
+  },
+  {
+    "name": "Expelliarmus",
+    "description": "Disarms the target (removes in-hand wand and drops it)",
+    "target": "Player",
+    "configurability": "Disarm swords and bows as well as wands",
+    "effect": "None",
+    "cooldown": "120s"
+  },
+  {
+    "name": "Finite Incantatem",
+    "description": "Removes all potion effects and unpetrifies the target (undoes Petrificus Totalus)",
+    "target": "Player",
+    "configurability": "None",
+    "effect": "Explosion",
+    "cooldown": "45s"
+  },
+  {
+    "name": "Flame-freezing Charm",
+    "description": "Gives the caster the fire resistance potion effect",
+    "target": "None",
+    "configurability": "Duration",
+    "effect": "None",
+    "cooldown": "300s"
+  },
+  {
+    "name": "Glacius",
+    "description": "Traps the target in a case of ice",
+    "target": "Player",
+    "configurability": "None",
+    "effect": "None (coming soon: light-blue particles)",
+    "cooldown": "120s"
+  },
+  {
+    "name": "Homenum Revelio",
+    "description": "Reveals players near the caster",
+    "target": "Nothing",
+    "configurability": "Firework color, Area where players are revealed",
+    "effect": "Firework explosion (default: yellow)",
+    "cooldown": "600s"
+  },
+  {
+    "name": "Incendio",
+    "description": "Sets the target on fire",
+    "target": "Living Entity and Block",
+    "configurability": "Duration",
+    "effect": "Mobspawne Flames",
+    "cooldown": "45s"
+  },
+  {
+    "name": "Legilimens",
+    "description": "Shows the target player's inventory",
+    "target": "Player",
+    "configurability": "Duration",
+    "effect": "None",
+    "cooldown": "180s"
+  },
+  {
+    "name": "Magna Tonitrus",
+    "description": "Calls down a bolt of lightning",
+    "target": "Block",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "60s"
+  },
+  {
+    "name": "Multicorfors",
+    "description": "Changes the dye color of the target",
+    "target": "Sheep or Wool block",
+    "configurability": "Explosion effect",
+    "effect": "Explosion",
+    "cooldown": "30s"
+  },
+  {
+    "name": "Obscuro",
+    "description": "Applies the blindness effect to the target",
+    "target": "Living Entity (erases targeted player if mob)",
+    "configurability": "Duration",
+    "effect": "None",
+    "cooldown": "90s"
+  },
+  {
+    "name": "Orchideous",
+    "description": "Plants a rose on the target",
+    "target": "Block",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "45s"
+  },
+  {
+    "name": "Petrificus Totalus",
+    "description": "Petrifies the target, cancelling movement",
+    "target": "Player",
+    "configurability": "Duration",
+    "effect": "None",
+    "cooldown": "300s"
+  },
+  {
+    "name": "Point Me",
+    "description": "Sets the player's view to the north",
+    "target": "None",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "0s"
+  },
+  {
+    "name": "Reducto",
+    "description": "Creates an explosion at the target",
+    "target": "Block",
+    "configurability": "Replace blocks that have been destroyed",
+    "effect": "None",
+    "cooldown": "300s"
+  },
+  {
+    "name": "Refilling Charm",
+    "description": "Refills bowls with mushroom soup, and buckets with water or milk",
+    "target": "None",
+    "configurability": "Bucket refill (water or milk)",
+    "effect": "None",
+    "cooldown": "120s"
+  },
+  {
+    "name": "Reparo",
+    "description": "Repairs all items and equipped armor in the caster's inventory",
+    "target": "Nothing",
+    "configurability": "None",
+    "effect": "Explosion",
+    "cooldown": "14,400s (4hr)"
+  },
+  {
+    "name": "Sectumsempra",
+    "description": "Slowly damages the target",
+    "target": "Living Entity",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "300s"
+  },
+  {
+    "name": "Silencio",
+    "description": "Mutes the target",
+    "target": "Player",
+    "configurability": "Duration",
+    "effect": "None",
+    "cooldown": "90s"
+  },
+  {
+    "name": "Sonorus",
+    "description": "Broadcasts the caster's next message (global chat)",
+    "target": "Nothing",
+    "configurability": "None",
+    "effect": "Explosion",
+    "cooldown": "15s"
+  },
+  {
+    "name": "Spongify",
+    "description": "Cancels fall damage",
+    "target": "Nothing",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "60s"
+  },
+  {
+    "name": "Stupefy",
+    "description": "Confuses and weakens the target",
+    "target": "Living Entities",
+    "configurability": "Vertical & horizontal knockbacks, damage, confusion & weakness durations",
+    "effect": "Red firework",
+    "cooldown": "120s"
+  },
+  {
+    "name": "Wingardium Leviosa",
+    "description": "Allows temporary flight for the caster",
+    "target": "Nothing",
+    "configurability": "Duration, canceling fall damage",
+    "effect": "Explosion",
+    "cooldown": "180s"
+  }
+]

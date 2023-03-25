@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Arrow",
+    "description": "Shoots an arrow out of the wand",
+    "target": "Nothing",
+    "configurability": "Arrow velocity",
+    "effect": "None",
+    "cooldown": "90s"
+  },
+  {
+    "name": "Enderchest",
+    "description": "Opens the caster's enderchest",
+    "target": "Nothing",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "0s"
+  },
+  {
+    "name": "Time",
+    "description": "Toggles day or night",
+    "target": "Nothing",
+    "configurability": "Striking lightning",
+    "effect": "Lightning",
+    "cooldown": "600s"
+  },
+  {
+    "name": "Tree",
+    "description": "Spawns a tree on the target",
+    "target": "Block",
+    "configurability": "None",
+    "effect": "Explosion",
+    "cooldown": "105s"
+  },
+  {
+    "name": "Weather",
+    "description": "Toggles the weather",
+    "target": "Nothing",
+    "configurability": "Time it takes for spell to take effect after casting",
+    "effect": "None",
+    "cooldown": "600s"
+  },
+  {
+    "name": "Workbench",
+    "description": "Opens a crafting table",
+    "target": "Nothing",
+    "configurability": "None",
+    "effect": "None",
+    "cooldown": "20s"
+  }
+]
