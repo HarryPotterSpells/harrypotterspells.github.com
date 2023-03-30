@@ -24,6 +24,12 @@ export const Home = () => {
         hard at work, striving to add features, fix bugs, and optimize everything. However, we will release regular
         alpha builds. See the <Link to="/downloads">Downloads page</Link> for more information.
       </p>
+
+      <div className="img-container">
+        <a href="https://bstats.org/plugin/bukkit/HarryPotterSpells/2858">
+          <img src="https://bstats.org/signatures/bukkit/HarryPotterSpells.svg" alt="HarryPotterSpells usage statistics" />
+        </a>
+      </div>
     </>
   );
 };
