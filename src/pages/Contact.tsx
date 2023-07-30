@@ -2,6 +2,7 @@ import { AdRow } from "../components/Ads";
 import { EXTERNAL_LINKS } from "../Constants";
 import { ExternalLink } from "../components/ExternalLink";
 import useDocumentTitle from "../utils/useDocumentTitle";
+import useMeta, { MetaName } from "../utils/useMeta";
 
 const SpigotLink = () => <ExternalLink url={EXTERNAL_LINKS.SPIGOT}>Spigot resource page</ExternalLink>;
 const BukkitLink = () => <ExternalLink url={EXTERNAL_LINKS.BUKKIT}>BukkitDev page</ExternalLink>;
@@ -22,6 +23,10 @@ const GitWebIssueLink = () => (
 
 export const Contact = () => {
   useDocumentTitle("Contact");
+  useMeta(
+    MetaName.DESCRIPTION,
+    "Find out how to get in touch with us, whether you want to help out, report a bug or suggest a new feature."
+  );
 
   return (
     <>

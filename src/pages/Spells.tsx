@@ -4,9 +4,14 @@ import { Spell, SpellProps } from "../components/Spell";
 import useDocumentTitle from "../utils/useDocumentTitle";
 import spells from "../data/spells.json";
 import otherSpells from "../data/otherSpells.json";
+import useMeta, { MetaName } from "../utils/useMeta";
 
 export const Spells = () => {
   useDocumentTitle("Spells");
+  useMeta(
+    MetaName.DESCRIPTION,
+    "Discover the list of over forty spells available within HarryPotterSpells. Find details about each spell's function, target, configurability, particle effects and cooldowns."
+  );
 
   const renderSpell = (spell: SpellProps) => <Spell key={spell.name} {...spell} />;
 

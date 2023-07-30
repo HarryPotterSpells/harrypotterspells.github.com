@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
 import useDocumentTitle from "../utils/useDocumentTitle";
+import useMeta, { MetaName } from "../utils/useMeta";
 
 export const Home = () => {
   useDocumentTitle("Home");
+  useMeta(
+    MetaName.DESCRIPTION,
+    `The official HarryPotterSpells minecraft plugin site. HarryPotterSpells is the ultimate Harry Potter plugin.
+    Whether you run a Harry Potter server, want to add magic to an RP server, or just an admin looking for a bit of fun,
+    this plugin is for you!`
+  );
 
   return (
     <>

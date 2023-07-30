@@ -2,9 +2,14 @@ import { Link } from "react-router-dom";
 import { AdRow } from "../components/Ads";
 import { EXTERNAL_LINKS } from "../Constants";
 import useDocumentTitle from "../utils/useDocumentTitle";
+import useMeta, { MetaName } from "../utils/useMeta";
 
 export const Downloads = () => {
   useDocumentTitle("Downloads");
+  useMeta(
+    MetaName.DESCRIPTION,
+    "Discover how to download the HarryPotterSpells plugin. All officially-released builds of HarryPotterSpells can be downloaded from BukkitDev."
+  );
 
   return (
     <>

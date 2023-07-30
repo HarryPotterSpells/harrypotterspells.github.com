@@ -1,8 +1,13 @@
 import { AdRow } from "../components/Ads";
 import useDocumentTitle from "../utils/useDocumentTitle";
+import useMeta, { MetaName } from "../utils/useMeta";
 
 export const Commands = () => {
   useDocumentTitle("Commands");
+  useMeta(
+    MetaName.DESCRIPTION,
+    `Find out about the available commands, usage, and permissions for the HarryPotterSpells plugin`
+  );
 
   return (
     <>

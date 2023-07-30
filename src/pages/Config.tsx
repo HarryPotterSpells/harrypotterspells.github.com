@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AdRow } from "../components/Ads";
 import useDocumentTitle from "../utils/useDocumentTitle";
+import useMeta, { MetaName } from "../utils/useMeta";
 
 const YamlCode = (props: any) => {
   const { children } = props;
@@ -14,6 +15,11 @@ const YamlCode = (props: any) => {
 
 export const Config = () => {
   useDocumentTitle("Config");
+  useMeta(
+    MetaName.DESCRIPTION,
+    `Find out how to configure the HarryPotterSpells plugin to your liking.
+    Includes the config.yml for the plugin, cooldowns.yml for spell cooldowns, and spells.yml for other spell configurations`
+  );
   const [config, setConfig] = useState("");
   const [cooldownConfig, setCooldownConfig] = useState("");
   const [spellsConfig, setSpellsConfig] = useState("");
