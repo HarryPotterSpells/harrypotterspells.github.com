@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="text-muted bg-light">
       <div className="container">
-        <p className="float-left">Hosted by Jacklin213 with Github pages</p>
+        <p className="float-left">Hosted by <a href="https://jacklin213.com" rel="noreferrer" target="_blank">Jacklin213</a> with Github pages</p>
         <p className="float-right">
           <Link to="/downloads">Download</Link>&nbsp;|&nbsp;
           <Link to="/contact">Contact</Link>&nbsp;|&nbsp;
